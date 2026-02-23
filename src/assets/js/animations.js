@@ -1,5 +1,8 @@
-import { gsap } from '/gsap-public/esm/index.js';
-import { SplitText } from '/gsap-public/esm/SplitText.js';
+// root-relative imports break when the site is served from a sub‑path
+// (e.g. GitHub Pages at /felixportfolio/). use relative paths instead so the
+// module loader resolves against this file's location.
+import { gsap } from '../../../gsap-public/esm/index.js';
+import { SplitText } from '../../../gsap-public/esm/SplitText.js';
 
 // Initialize GSAP animations
 export function initAnimations() {
