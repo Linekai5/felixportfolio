@@ -1,0 +1,7 @@
+[
+    {
+        "id": "project1",
+        "title": "Rettracker",
+        "content": "<h2>Rettracker</h2><p>This is my current solo project that is still in development: a fullstack web app that displays real-time positions, departure times, and stops of RET trams, buses, and metros on an interactive map. The frontend is built with Svelte, CSS, and uses MapLibre with OpenFreeMap to render a fast vector tiled map. The backend runs on Python and FastAPI. The API is running on a Google Cloud VM and is securely reachable via HTTPS through Cloudflare Tunnel.</p>"
+    }
+]
