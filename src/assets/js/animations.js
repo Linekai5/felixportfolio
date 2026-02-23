@@ -4,6 +4,12 @@
 import { gsap } from '../../../gsap-public/esm/index.js';
 import { SplitText } from '../../../gsap-public/esm/SplitText.js';
 
+// This comment was added to bump the file modification time and force a new
+// GitHub Pages build. The previous cached version on the CDN still had the
+// root-relative imports, which caused 404 errors when the page tried to load
+// SplitText.js. A fresh deploy should serve the updated version with
+// relative paths.
+
 // Initialize GSAP animations
 export function initAnimations() {
     gsap.set("div:not(.meimage)", { opacity: 1 });
